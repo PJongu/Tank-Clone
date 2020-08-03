@@ -15,7 +15,7 @@ public class pewpew : MonoBehaviour
     }
     public IEnumerator destroy(){
 
-        yield return new WaitForSeconds(.05f);
+        yield return new WaitForSeconds(.02f);
         Destroy(gameObject);
     }
 
